@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">w2d3-ex1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_two">Hello from 2nd fragment</string>
+    <string name="hello_blank_fragment_one">Hello from 1st fragment</string>
+</resources>
