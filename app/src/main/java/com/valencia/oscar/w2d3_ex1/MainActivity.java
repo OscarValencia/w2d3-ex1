@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements FirstFragment.rec
     }
 
     @Override
-    public void sendMessageSecondFragment(String message) {
+    public void messageFromSecondFragment(String message) {
         firstFragment.receiveMessage(message);
     }
 }

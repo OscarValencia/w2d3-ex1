@@ -35,13 +35,13 @@ public class SecondFragment extends Fragment implements View.OnClickListener{
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btSend:
-                listener.sendMessageSecondFragment(getMessage());
+                listener.messageFromSecondFragment(getMessage());
                 break;
         }
     }
 
     public interface receiveMessageListener{
-        void sendMessageSecondFragment(String message);
+        void messageFromSecondFragment(String message);
     }
 
     private String getMessage() {
